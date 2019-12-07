@@ -75,5 +75,5 @@ mosquitto_pub -h broker.hivemq.com -t sensors/testclient/control -m closed
 ![Light sensor and 2 clients and an invalid status update](chatty3.png)
 
 ### Light sensor and door sensor with 1 client each
-![Light sensor and door sensor with 1 client each](chatt4.png)
+![Light sensor and door sensor with 1 client each](chatty4.png)
 
