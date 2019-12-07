@@ -64,4 +64,5 @@ mosquitto_pub -h mqtt.eclipse.org -t sensors/testclient/control -m on
 ```
 mosquitto_pub -h broker.hivemq.com -t sensors/testclient/control -m closed
 ```
-
+## Screen shots
+![Light sensor and 1 client](chatty1.png)
