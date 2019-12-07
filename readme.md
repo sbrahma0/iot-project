@@ -74,6 +74,9 @@ mosquitto_pub -h broker.hivemq.com -t sensors/testclient/control -m closed
 ### Light sensor and 2 clients and an invalid status update
 ![Light sensor and 2 clients and an invalid status update](chatty3.png)
 
+Here even if the client tries to change the status of the senors with an invalid state, a message will be published that the client has tried to change the state but the state wont be changed.
+
 ### Light sensor and door sensor with 1 client each
 ![Light sensor and door sensor with 1 client each](chatty4.png)
+When different sensors are played with, it should be kept in mind that the broker is different for each sensor (as per our prokect).
 
