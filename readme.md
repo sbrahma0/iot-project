@@ -65,4 +65,15 @@ mosquitto_pub -h mqtt.eclipse.org -t sensors/testclient/control -m on
 mosquitto_pub -h broker.hivemq.com -t sensors/testclient/control -m closed
 ```
 ## Screen shots
+### Light sensor and 1 client
 ![Light sensor and 1 client](chatty1.png)
+
+### Light sensor and 2 clients
+![Light sensor and 1 client](chatty2.png)
+
+### Light sensor and 2 clients and an invalid status update
+![Light sensor and 2 clients and an invalid status update](chatty3.png)
+
+### Light sensor and door sensor with 1 client each
+![Light sensor and door sensor with 1 client each](chatt4.png)
+
